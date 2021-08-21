@@ -39,4 +39,4 @@ A simple Jenkinsfile implementation that demonstrates CI pipeline.
 ######Once the repository has been cloned make sure to update the github repository, docker hub repository and credentials
 ######Make sure to have docker installed on the jenkins VM
 
-## [Deploying and running the project](https://www.google.com)🌩️
+## [Deploying and running the project](https://www.google.com) 🌩️
