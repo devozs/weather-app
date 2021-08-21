@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-              git branch: 'dev', url: 'https://github.com/devozs/weather-client'
+              git branch: 'dev', url: 'https://github.com/devozs/weather-app'
             }
         }
 
