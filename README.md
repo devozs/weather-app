@@ -12,7 +12,7 @@
 
 ---
 
-### Building the project 🚪
+### Building the Java project 🚪
 
     cd ~/[your-workspace]
     git clone https://github.com/devozs/weather-app.git
