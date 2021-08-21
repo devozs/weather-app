@@ -24,7 +24,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-              sh "docker build -f ./Dockerfile -t ${REGISTRY}/weather-app-client:${IMAGE_TAG} ."
+              sh "docker build -f ./Dockerfile -t ${REGISTRY}/weather-app:${IMAGE_TAG} ."
             }
         }
 
@@ -33,7 +33,7 @@ pipeline {
                 withCredentials([string(credentialsId: 'docker-hub', variable: 'dockerHubPassword')]) {
                     sh "docker login -u ${REGISTRY} -p ${dockerHubPassword}"
                 }
-                sh "docker push ${REGISTRY}/weather-app-client:${IMAGE_TAG}"
+                sh "docker push ${REGISTRY}/weather-app:${IMAGE_TAG}"
             }
         }
     }
