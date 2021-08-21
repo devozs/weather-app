@@ -6,9 +6,9 @@
 - Java and Maven implementation
 - Docker container using Dockerfile and docker build
 - CI for building the project and pushing the image to docker registry via 
-  - [Jenkins pipeline](https://www.google.com)
-  - [Bash script](https://www.google.com)
-- [Setup required tools script](https://www.google.com)
+  - [Jenkins pipeline](https://github.com/devozs/weather-app/blob/dev/Jenkinsfile)
+  - [Bash script](https://github.com/devozs/weather-app/blob/dev/build-push-image.sh)
+- [Setup required tools script](https://github.com/devozs/weather-app/blob/dev/setup-prerequisites.sh)
 
 ---
 
