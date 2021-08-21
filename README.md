@@ -23,11 +23,11 @@ Running a utility script you can build the project and the image
 ```shell
 ./build-push-image.sh
 ```
-| Example                                       | Comments           
-| ----------------------------------------------|-----------------------------------------------------------------------|
-| ```shell ./build-push-image.sh```             | Running mvn install and building the image with latest tag
-| ```shell ./build-push-image.sh -t 0.0.1```    | Same as above and also tagging the image with specific tag
-| ```shell ./build-push-image.sh -t 0.0.1 -p``` | Same as above and also pushing the image to docker hub
+| Example                                 | Comments           
+| ----------------------------------------|-----------------------------------------------------------------------|
+| ```./build-push-image.sh```             | Running mvn install and building the image with latest tag
+| ```./build-push-image.sh -t 0.0.1```    | Same as above and also tagging the image with specific tag
+| ```./build-push-image.sh -t 0.0.1 -p``` | Same as above and also pushing the image to docker hub
 
 ### Jenkins Pipeline 🌩️
 A simple Jenkinsfile implementation that demonstrates CI pipeline.
