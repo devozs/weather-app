@@ -32,5 +32,6 @@ Running a utility script you can build the project and the image
 ### Jenkins Pipeline 🌩️
 A simple Jenkinsfile implementation that demonstrates CI pipeline.
 ######Once the repository has been cloned make sure to update the docker hub repository and credentials
+######Make sure to have docker installed on the jenkins VM
 
 ## [Deploying and running the project](https://www.google.com)🌩️
