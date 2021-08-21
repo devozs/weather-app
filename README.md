@@ -41,4 +41,4 @@ A simple Jenkinsfile implementation that demonstrates CI pipeline.
 
 The pipeline is for testing purposes and its creating image tag with Jenkins build number. As such make sure to manually delete created images.
 
-## [Deploying and running the project](https://www.google.com) 🌩️
+## [Deploying and running the project](https://github.com/devozs/weather-app-cd) 🌩️
