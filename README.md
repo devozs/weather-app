@@ -16,6 +16,7 @@
 
     cd ~/[your-workspace]
     git clone https://github.com/devozs/weather-app.git
+    cd weather-app
     mvn clean install
 
 ### Building and pushing the docker image (locally) 🚪
